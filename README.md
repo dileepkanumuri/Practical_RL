@@ -1,3 +1,19 @@
+It is 9 weeks along, where the repository also contains bonus materials that can be used for students that took the course on-site or simply want to explore it online.
+
+It is a course with a focus on practical machine learning covering the topics like the following:
+* Introduction. RL problems around us. Decision processes. Stochastic optimization, Crossentropy method. Parameter space search vs action space search.
+* Value-based methods. Discounted reward MDP. Value-based approach. Value iteration. Policy iteration. Discounted reward fails.
+* Model-free reinforcement learning. Q-learning. SARSA. Off-policy Vs on-policy algorithms. N-step algorithms. TD(Lambda).
+* Deep Learning recap. Deep learning 101. It comes with a seminar that has an introduction to pytorch/tensorflow, simple image classification with convnets
+* Approximate (deep) RL. Infinite/continuous state space. Value function approximation. Convergence conditions. Multiple agents trick; experience replay, target networks, double/dueling/bootstrap DQN, etc.
+* Exploration. Contextual bandits. Thompson Sampling, UCB, bayesian UCB. Exploration in model-based RL, MCTS. “Deep” heuristics for exploration.
+* Policy Gradient methods. Motivation for policy-based, policy gradient, logderivative trick, REINFORCE/crossentropy method, variance reduction(baseline), advantage actor-critic (incl. GAE)
+* Reinforcement Learning for Sequence Models. Problems with sequential data. Recurrent neural netowks. Backprop through time. Vanishing & exploding gradients. LSTM, GRU. Gradient clipping
+* Partially Observed MDP. POMDP intro. POMDP learning (agents with memory). POMDP planning (POMCP, etc)
+* Advanced policy-based methods. Trust region policy optimization. NPO/PPO. Deterministic policy gradient. DDPG
+* Model-based RL & Co. Model-Based RL, Planning in General, Imitation Learning and Inverse Reinforcement Learning
+* Inverse RL and Imitation Learning. All the stuff that is not taught from this course
+
 # Practical_RL
 
 An open course on reinforcement learning in the wild.
